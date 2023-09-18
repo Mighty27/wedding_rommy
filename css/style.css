@@ -1,0 +1,686 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+
+
+:root {
+    --gold: #f1c232;
+    --bg: #0a0a0a;
+    --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    --bg-button: #ffffff85;
+    --bg-button-hover: #f1c13293;
+
+
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+	height: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	background: #fff;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+
+.first::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/img/img2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.first {
+    width: 100%;
+    min-height: 100vh;
+	position: relative;
+	padding: 0px;
+    background-color: #db005b91;
+
+}
+
+
+.first h1, .first h4, .first p {
+    text-shadow: var(--shadow);
+}
+
+.first h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+
+}
+
+.first p {
+    font-size: 1.2rem;
+
+}
+
+.first h4 {
+    font-size: 1.6rem;
+
+}
+
+.first a {
+    color: #B70404;
+    background-color: white;
+}
+
+.first a:hover {
+    color: white;
+    background-color: #F79327;
+}
+
+.mynavbar {
+    background-color: rgba(255, 255, 255, 0.3)!important;
+    backdrop-filter: blur(2px);
+
+}
+
+.mynavbar .offcanvas {
+    height: 100vh;
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase;
+}
+
+.home {
+    min-height: 100vh;
+    margin-top: -5.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(/img/img-3.png);
+    background-size: cover;
+    background-position: right;
+}
+
+
+.home h2 {
+    color: #DB005B;
+    font-family: 'dancing script', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+
+}
+
+.home h3 {
+    font-size: 2rem;
+    color: #000000;
+    /* margin-bottom: 3rem; */
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #000000;
+    /* margin-bottom: 2rem; */
+}
+
+.home .ht-3{
+    margin-top: 0px;
+}
+
+.couple .ht-5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.couple .img-s {
+    padding: 0px;
+}
+
+.home .couple {
+    margin-top: 1rem;
+}
+
+.home .couple h4 {
+    font-family:'dancing script';
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #DB005B;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.home .couple p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.home .couple img{
+    width: 150px;
+    height: 150px;
+    /* margin-top: 50px; */
+}
+
+.info {
+    background-color: #da206d;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.info h2,
+.story h2 {
+    color: white;
+    font-family: 'dancing script';
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+
+.info a{
+    font-family: 'Oswald';
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    background-color: white;
+    color: #d17819;
+}
+
+.info a:hover{
+    background-color: #F79327;
+    color: #DB005B;
+}
+
+.info .alamat {
+    margin-bottom: -0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.info .description {
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+
+.info .card {
+    background-color: rgba(255, 255, 255, 0.2)!important;
+    color: white !important;
+    border: 1px solid #999;
+}
+
+.info .card-header {
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    
+}
+
+.info .card-body {
+    font-size: 1rem;
+
+}
+
+.info .card-footer {
+    border-top: 1px solid #999;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.info .detail {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 0.4rem;
+}
+
+.story {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+
+}
+
+.story span{
+    text-transform: uppercase;
+    color: #666;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.story p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.timeline {
+    list-style: none;
+    padding: 1.4rem 0;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.timeline ::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 1px;
+    background-color: #ccc;
+    left: 50%;
+}
+
+.timeline li{
+    margin-bottom: 1.5rem;
+    position: relative;
+
+}
+
+.timeline li ::before {
+
+}
+
+.timeline li ::after {
+    content: '';
+    display: table;
+}
+
+.timeline li::after {
+    clear: both;
+}
+
+.timeline li .timeline-image {
+    width: 160px;
+    height: 160px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+
+.gifts {
+    background-image: url(/img/img-3.png);
+    background-size: cover;
+    background-position: left;
+    min-height: 100vh;
+    /* margin-top: rem; */
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+
+.gifts h2{
+    font-family: 'dancing script';
+    font-weight: bold;
+    font-size: 5rem;
+    color: #da206d;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    margin-bottom: 20px;
+
+}
+
+.gifts p{
+    font-size: 1rem;
+    /* text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray; */
+    font-weight: 400;
+    color: #000000;
+}
+
+.gifts .card{
+    margin-top: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+.gifts .card-body{
+    margin-top: auto;
+}
+
+.gifts .img-1 {
+    display: block;
+    margin-top: 19%;
+    margin-left: 30px;
+    height: auto;
+    width: 100%;
+}
+
+.gifts button{
+    color: #DB005B;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.gifts button:hover{
+    color: #d17819;
+}
+
+.ender {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ender p{
+    font-size: 0.9rem;
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+    html {
+
+    }
+
+    .first h1{
+        font-size: 5.5rem;
+    }
+
+    .first a{
+        font-size: 1.1rem;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 45px;
+    }
+
+
+    .home h2{
+        font-size: 4rem;
+    }
+
+    .home h3{
+
+    }
+
+    .home p{
+        font-size: 17px;
+    }
+
+    .home .ht-3{
+        margin-bottom: 0px;
+    }
+
+    .home .margin-size{
+        margin-top: 20px;
+    }
+
+    .home .p-man{
+        padding-right: 40px;
+    }
+
+    .home .couple p{
+        font-size: 16px;
+    }
+
+    .home .couple img{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 190px;
+        height: 190px;
+    }
+
+    .gifts h2{
+        font-size: 7rem;
+    }
+
+    .gifts .img-1 {
+        display: block;
+        margin-top: 40%;
+    }
+
+    .gifts p{
+        font-size: 1.2rem;
+    }
+}
+/* Tablet */
+@media (min-width: 768px) {
+    html {
+    }
+
+    
+    .mynavbar .sub-navbar{
+        display: none;
+    }
+    .simply-countdown>.simply-section {
+        padding: 50px;
+        margin: 5px;
+    }
+    
+    .mynavbar .offcanvas{
+        display: none;
+    }
+    
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .mynavbar.navbar-toggler {
+        display: none;
+    }
+
+    .sticky-top {
+        overflow: hidden;
+    }
+
+    .home {
+        background-position: center;
+    }
+
+    .home .couple img{
+        height: auto;
+        width: 100%;
+    }
+
+    .couple .p-man{
+        padding: 0px;
+    }
+
+    .gifts {
+        background-position: center;
+    }
+
+    .gifts p{
+        font-size: 1.2rem;
+        color: #000000;
+        /* font-weight: bold; */
+    }
+
+    .gifts .img-1 {
+        margin-top: 60px;
+        width: 90%;
+        /* transform: translateX(-60px); */
+    }
+}
+
+/* Handphone */
+@media (max-width: 600px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 40px;
+        margin: 2.5px;
+
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+    html {
+    }
+
+    
+    .mynavbar .sub-navbar{
+        display: none;
+    }
+    .simply-countdown>.simply-section {
+        padding: 50px;
+        margin: 5px;
+    }
+    
+    .mynavbar .offcanvas{
+        display: none;
+    }
+    
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .mynavbar.navbar-toggler {
+        display: none;
+    }
+
+    .sticky-top {
+        overflow: hidden;
+    }
+
+    .home {
+        background-position: center;
+    }
+
+    .home .couple img{
+        height: auto;
+        width: 100%;
+    }
+
+    .couple .p-man{
+        padding: 0px;
+    }
+
+    .gifts {
+        background-position: center;
+    }
+
+    .gifts p{
+        font-size: 1rem;
+        color: #000000;
+        /* font-weight: bold; */
+    }
+
+    .gifts .img-1 {
+        position: static;
+        margin-top: 60px;
+        margin-left: 112px;
+        width: 60%;
+        transform: translateY(-40px);
+    }
+}
+
+/* Handphone */
+@media (max-width: 600px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 40px;
+        margin: 2.5px;
+
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .info .alamat{
+        font-size: 1.4rem;
+    }
+
+    .info .card-body {
+        font-size: +100%;
+    }
+
+}
+
+/* Phone */
+@media (max-width: 576px) {
+    html {
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 20px;
+        margin: 1.25px;
+
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .home .couple img{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .couple .p-man{
+        padding: 0px;
+    }
+
+    .gifts .img-1 {
+        position: static;
+        margin-top: 60px;
+        margin-left: 112px;
+        width: 60%;
+        transform: translateY(-30px);
+    }
+
+}
+
+/* @media (max-width: 576px) {
+    html {
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 20px;
+        margin: 1.25px;
+
+    }
+
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .home .couple img{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .couple .p-man{
+        padding: 0px;
+    }
+
+    .gifts .img-1 {
+        position: static;
+        margin-top: 60px;
+        margin-left: 112px;
+        width: 60%;
+        transform: translateY(-30px);
+    }
+
+} */
