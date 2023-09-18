@@ -620,7 +620,7 @@ body {
     }
 
     .first h1{
-        font-size: 7rem;
+        font-size: 6.5rem;
     
     }
 
@@ -632,6 +632,11 @@ body {
 
     .home .ht-3{
         font-size: 1.3rem;
+    }
+
+    .home .couple p{
+        font-size: 1.5rem;
+        font-weight: 300;
     }
     
     .simply-countdown>.simply-section {
