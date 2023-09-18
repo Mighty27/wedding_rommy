@@ -685,6 +685,15 @@ body {
         padding: 0px;
     }
 
+    .gifts .text-edit {
+        font-size: 1.4rem;
+    }
+    
+    .gifts .text-edit1 {
+        font-size: 1.2rem;
+    }
+
+
     .gifts .img-1 {
         position: static;
         margin-top: 60px;
