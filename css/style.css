@@ -693,6 +693,10 @@ body {
         font-size: 1.2rem;
     }
 
+    .gifts button{
+        font-size: 1.2rem;
+    }
+
 
     .gifts .img-1 {
         position: static;
@@ -704,37 +708,15 @@ body {
 
 }
 
-/* @media (max-width: 576px) {
+@media (max-width: 420px) {
     html {
     }
-
-    .simply-countdown>.simply-section {
-        padding: 20px;
-        margin: 1.25px;
-
-    }
-
-    .mynavbar .nav-link {
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    .home .couple img{
-        width: 100%;
-        height: auto;
-        padding: 0px;
-    }
-
-    .couple .p-man{
-        padding: 0px;
-    }
-
     .gifts .img-1 {
-        position: static;
+        /* position: static; */
         margin-top: 60px;
-        margin-left: 112px;
+        margin-left: 90px;
         width: 60%;
-        transform: translateY(-30px);
     }
 
-} */
+
+}
