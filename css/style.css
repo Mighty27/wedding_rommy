@@ -638,6 +638,11 @@ body {
         font-size: 1.5rem;
         font-weight: 300;
     }
+
+    .couple .rest {
+        margin-top: 30px;
+
+    }
     
     .simply-countdown>.simply-section {
         padding: 20px;
