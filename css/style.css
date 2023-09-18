@@ -619,6 +619,15 @@ body {
     html {
     }
 
+    .first{
+        font-size: +2rem;
+    
+    }
+
+    .home .ht-3{
+        font-size: 1.3rem;
+    }
+    
     .simply-countdown>.simply-section {
         padding: 20px;
         margin: 1.25px;
