@@ -661,6 +661,22 @@ body {
         padding: 0px;
     }
 
+    .info .description {
+        font-size: +1rem;
+    }
+
+    .info i{
+        font-size: 1.4rem;
+    }
+
+    .info .detail {
+        font-size: 1.4rem
+    }
+
+    .info .foot-detail {
+        font-size: 1.2rem;
+    }
+
     .couple .p-man{
         padding: 0px;
     }
