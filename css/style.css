@@ -619,9 +619,15 @@ body {
     html {
     }
 
-    .first{
-        font-size: +2rem;
+    .first h1{
+        font-size: 7rem;
     
+    }
+
+    .simply-countdown>.simply-section .simply-amount {
+        font-size: 1.6rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
     }
 
     .home .ht-3{
